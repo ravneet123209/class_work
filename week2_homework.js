@@ -38,3 +38,24 @@ function withdraw(balance, amount){
 withdraw(500, 200);
 withdraw(300, 500);
 
+//Task 4 — Grade Evaluator Function
+
+function getGrade(score){
+    if(score>=90){
+        console.log("A");
+    }else if(score >= 80 && score <=89 ){
+        console.log("B");
+    }else if(score >= 70 && score <=79){
+        console.log("C");
+    }else{
+        console.log("Fail");
+    }
+}
+
+getGrade(95);
+getGrade(82);
+getGrade(74);
+getGrade(60);
+
+
+
