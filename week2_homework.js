@@ -11,3 +11,18 @@ if(username ==="admin" && password ===1234 && isActive ===true){
     console.log("Invalid credentials");
 }
 
+//Task 2 — Age Access Function
+
+function checkAccess(age, hasID){
+    if(age>= 18 && hasID === true){
+        console.log("Access granted");
+    }
+    else{
+        console.log("Access denied");
+    }
+}
+
+checkAccess(20,true);
+checkAccess(17,true);
+checkAccess(22,false);
+
