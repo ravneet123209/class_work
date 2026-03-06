@@ -1,2 +1,2 @@
-# class_work
+# week2_homework.js
 JavaScript homework
